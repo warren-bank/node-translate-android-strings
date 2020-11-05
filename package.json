@@ -1,0 +1,23 @@
+{
+  "name": "@warren-bank/translate-android-strings",
+  "version": "1.0.0",
+  "main": "lib/process_cli.js",
+  "description": "Command-line utility to use the IBM Watson Language Translator service to translate Android 'strings.xml'.",
+  "license": "GPL-2.0",
+  "bin": {
+    "translate-android-strings": "bin/translate-android-strings.js"
+  },
+  "dependencies": {
+    "@warren-bank/ibm-watson-language-translator": "^1.0.0",
+    "@warren-bank/node-process-argv": "^1.1.0"
+  },
+  "author": {
+    "name":  "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url":   "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/warren-bank/node-translate-android-strings"
+  }
+}

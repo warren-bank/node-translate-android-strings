@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitud, Longitud">
+  <!ENTITY fixed_position "Posición fija">
+  <!ENTITY trip           "Viaje">
+  <!ENTITY origin         "Origen">
+  <!ENTITY destination    "Destino">
+]>
+
+<resources>
+    <string name="app_name">Mock mi GPS</string>
+
+    <!-- GeoIntentActivity ================================================= -->
+
+    <string name="geo_intent_menu_title">Utilice Geo-Intent Para:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nuevo marcador</string>
+
+    <!-- MainActivity ====================================================== -->
+
+    <!-- extras -->
+    <string translatable="false" name="MainActivity_extra_current_tab_tag">current_tab_tag</string>
+    <string translatable="false" name="MainActivity_extra_toast">toast</string>
+
+    <!-- actionbar -->
+    <string name="MainActivity_actionbar_item_1">Guardar marcador</string>
+    <string name="MainActivity_actionbar_item_2">Marcadores</string>
+    <string name="MainActivity_actionbar_item_3">Preferencias</string>
+
+    <!-- tab_1: FixedPositionActivity ====================================== -->
+
+    <string name="FixedPositionActivity_field_1">Location:\n<small>(&lat_lon;)</small></string>
+
+    <!-- tab_2: TripSimulationActivity ===================================== -->
+
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Duration:\n<small>(seconds)</small></string>
+
+</resources>
