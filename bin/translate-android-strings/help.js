@@ -55,6 +55,11 @@ options:
             (ex: '/out/values-es/strings.xml', '/out/values-zh-rTW/strings.xml')
     Default: Disabled.
 
+"-n"
+"--non-translatable"
+    [optional] Include a verbatim copy of non-translatable strings in output files.
+    Default: Disabled.
+
 "--debug"
     [optional] Writes raw data files to output directory.
     note: If enabled, then for each language:

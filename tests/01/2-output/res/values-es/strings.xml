@@ -22,8 +22,6 @@
     <!-- MainActivity ====================================================== -->
 
     <!-- extras -->
-    <string translatable="false" name="MainActivity_extra_current_tab_tag">current_tab_tag</string>
-    <string translatable="false" name="MainActivity_extra_toast">toast</string>
 
     <!-- actionbar -->
     <string name="MainActivity_actionbar_item_1">Guardar marcador</string>
