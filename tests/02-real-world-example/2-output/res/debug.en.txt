@@ -1,0 +1,16 @@
+[
+  "Latitude, Longitude",
+  "Fixed Position",
+  "Trip",
+  "Origin",
+  "Destination",
+  "Mock my GPS",
+  "Use Geo-Intent For:",
+  "New Bookmark",
+  "Save Bookmark",
+  "Bookmarks",
+  "Preferences",
+  "Location:",
+  "Duration:",
+  "(seconds)"
+]
