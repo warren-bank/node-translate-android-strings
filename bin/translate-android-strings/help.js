@@ -60,6 +60,16 @@ options:
     [optional] Include a verbatim copy of non-translatable strings in output files.
     Default: Disabled.
 
+"--nc"
+"--no-comments"
+    [optional] Exclude XML single-line comments from output files.
+    Default: Disabled.
+
+"--nw"
+"--no-whitespace"
+    [optional] Exclude lines that are empty or only contain whitespace from output files.
+    Default: Disabled.
+
 "--debug"
     [optional] Writes raw data files to output directory.
     note: If enabled, then for each language:

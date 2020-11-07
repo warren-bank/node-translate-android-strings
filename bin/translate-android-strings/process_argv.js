@@ -14,6 +14,8 @@ const argv_flags = {
   "--output-directory":   {file: "path-dirname-exists"},
   "--make-resource-dirs": {bool: true},
   "--non-translatable":   {bool: true},
+  "--no-comments":        {bool: true},
+  "--no-whitespace":      {bool: true},
   "--debug":              {bool: true}
 }
 
@@ -27,7 +29,9 @@ const argv_flag_aliases = {
   "--input-file":         ["-f"],
   "--output-directory":   ["-d"],
   "--make-resource-dirs": ["-m"],
-  "--non-translatable":   ["-n"]
+  "--non-translatable":   ["-n"],
+  "--no-comments":        ["--nc"],
+  "--no-whitespace":      ["--nw"]
 }
 
 let argv_vals = {}
