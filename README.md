@@ -31,6 +31,11 @@ Command-line utility to use the IBM Watson&trade; Language Translator service to
     ```xml
       <string name="mixed_content">&foo; Bar Baz</string>
     ```
+* does not translate string resource declarations that contain nested XML tags
+  - ex:
+    ```xml
+      <string name="styled_content">Foo <small>Bar</small> Baz</string>
+    ```
 
 #### Requirements:
 
