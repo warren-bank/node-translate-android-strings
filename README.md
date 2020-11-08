@@ -114,19 +114,27 @@ options:
     note: This flag can be repeated to blacklist multiple substring patterns.
     Default: empty list.
 
+"-a"
+"--alias"
+    [optional] Include in output files: strings that alias another string resource.
+    example: <string name="X">@string/Y</string>
+    Default: Disabled.
+
 "-n"
 "--non-translatable"
-    [optional] Include a verbatim copy of non-translatable strings in output files.
+    [optional] Include in output files: a verbatim copy of non-translatable strings.
+    example: <string name="Y" translatable="false">3.14159</string>
     Default: Disabled.
 
 "--nc"
 "--no-comments"
-    [optional] Exclude XML single-line comments from output files.
+    [optional] Exclude from output files: XML single-line comments.
+    example: <!-- comment -->
     Default: Disabled.
 
 "--nw"
 "--no-whitespace"
-    [optional] Exclude lines that are empty or only contain whitespace from output files.
+    [optional] Exclude from output files: lines that are empty or only contain whitespace.
     Default: Disabled.
 
 "--debug"
@@ -222,13 +230,13 @@ language codes:
     ```bash
       source ~/IBM_TRANSLATOR_API_CREDENTIALS.sh
 
-      translate-android-strings -i 'en' -o 'de' -o 'fr' -o 'es' -f '/path/to/input/file.xml' -d '/path/to/output'
+      translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -f '/path/to/input/file.xml' -d '/path/to/output'
     ```
   - produces output files:
     ```text
       /path/to/output/file.de.xml
-      /path/to/output/file.fr.xml
       /path/to/output/file.es.xml
+      /path/to/output/file.fr.xml
     ```
 
 #### Legal:

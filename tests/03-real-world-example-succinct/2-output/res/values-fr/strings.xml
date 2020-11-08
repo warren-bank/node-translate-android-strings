@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
   <!ENTITY lat_lon        "Latitude, Longitude">
   <!ENTITY fixed_position "Position fixe">
   <!ENTITY trip           "Voyage">
   <!ENTITY origin         "Origine">
   <!ENTITY destination    "Destination">
-  <!ENTITY copyright      "Adam Adamant">
 ]>
 <resources>
     <string name="app_name">Mock my GPS</string>

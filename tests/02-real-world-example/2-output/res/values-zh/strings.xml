@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
+
   <!ENTITY lat_lon        "纬度，经度">
   <!ENTITY fixed_position "固定位置">
   <!ENTITY trip           "旅行">
   <!ENTITY origin         "起源">
   <!ENTITY destination    "目的地">
-
-  <!ENTITY copyright      "Adam Adamant">
 ]>
 
 <resources>
@@ -27,6 +27,7 @@
     <!-- extras -->
 
     <!-- actionbar -->
+    <string name="MainActivity_actionbar_title">@string/app_name</string>
     <string name="MainActivity_actionbar_item_1">保存书签</string>
     <string name="MainActivity_actionbar_item_2">书签</string>
     <string name="MainActivity_actionbar_item_3">首选项</string>

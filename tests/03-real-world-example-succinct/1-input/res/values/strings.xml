@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
+
   <!ENTITY lat_lon        "Latitude, Longitude">
   <!ENTITY fixed_position "Fixed Position">
   <!ENTITY trip           "Trip">
   <!ENTITY origin         "Origin">
   <!ENTITY destination    "Destination">
-
-  <!ENTITY copyright      "Adam Adamant">
 ]>
 
 <resources>
@@ -29,6 +29,7 @@
     <string translatable="false" name="MainActivity_extra_toast">toast</string>
 
     <!-- actionbar -->
+    <string name="MainActivity_actionbar_title">@string/app_name</string>
     <string name="MainActivity_actionbar_item_1">Save Bookmark</string>
     <string name="MainActivity_actionbar_item_2">Bookmarks</string>
     <string name="MainActivity_actionbar_item_3">Preferences</string>

@@ -16,4 +16,4 @@ log_file="${output_dir}/test.log"
 [ -d "$output_dir" ] && rm -rf "$output_dir"
 mkdir -p "$output_dir"
 
-translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -o 'zh' -o 'zh-TW' -f "$input_file" -d "$output_dir" -m -b 'Adam Adamant' -b 'Blankety Blank' -b 'Chucky Cheese' --debug >"$log_file" 2>&1
+translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -o 'zh' -o 'zh-TW' -f "$input_file" -d "$output_dir" -m -b 'Adam Adamant' -b 'Blankety Blank' -b 'Chucky Cheese' -a --debug >"$log_file" 2>&1

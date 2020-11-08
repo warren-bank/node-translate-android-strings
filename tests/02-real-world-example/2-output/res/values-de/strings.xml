@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
+
   <!ENTITY lat_lon        "Breitengrad, Längengrad">
   <!ENTITY fixed_position "Feste Position">
   <!ENTITY trip           "Reise">
   <!ENTITY origin         "Ursprung">
   <!ENTITY destination    "Ziel">
-
-  <!ENTITY copyright      "Adam Adamant">
 ]>
 
 <resources>
@@ -27,6 +27,7 @@
     <!-- extras -->
 
     <!-- actionbar -->
+    <string name="MainActivity_actionbar_title">@string/app_name</string>
     <string name="MainActivity_actionbar_item_1">Lesezeichen speichern</string>
     <string name="MainActivity_actionbar_item_2">Lesezeichen</string>
     <string name="MainActivity_actionbar_item_3">Vorgaben</string>

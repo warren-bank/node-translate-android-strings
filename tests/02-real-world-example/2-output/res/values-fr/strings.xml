@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
+
   <!ENTITY lat_lon        "Latitude, Longitude">
   <!ENTITY fixed_position "Position fixe">
   <!ENTITY trip           "Voyage">
   <!ENTITY origin         "Origine">
   <!ENTITY destination    "Destination">
-
-  <!ENTITY copyright      "Adam Adamant">
 ]>
 
 <resources>
@@ -27,6 +27,7 @@
     <!-- extras -->
 
     <!-- actionbar -->
+    <string name="MainActivity_actionbar_title">@string/app_name</string>
     <string name="MainActivity_actionbar_item_1">Enregistrer un signet</string>
     <string name="MainActivity_actionbar_item_2">Signets</string>
     <string name="MainActivity_actionbar_item_3">Préférences</string>

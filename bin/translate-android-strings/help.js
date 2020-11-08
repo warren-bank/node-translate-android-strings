@@ -61,19 +61,27 @@ options:
     note: This flag can be repeated to blacklist multiple substring patterns.
     Default: empty list.
 
+"-a"
+"--alias"
+    [optional] Include in output files: strings that alias another string resource.
+    example: <string name="X">@string/Y</string>
+    Default: Disabled.
+
 "-n"
 "--non-translatable"
-    [optional] Include a verbatim copy of non-translatable strings in output files.
+    [optional] Include in output files: a verbatim copy of non-translatable strings.
+    example: <string name="Y" translatable="false">3.14159</string>
     Default: Disabled.
 
 "--nc"
 "--no-comments"
-    [optional] Exclude XML single-line comments from output files.
+    [optional] Exclude from output files: XML single-line comments.
+    example: <!-- comment -->
     Default: Disabled.
 
 "--nw"
 "--no-whitespace"
-    [optional] Exclude lines that are empty or only contain whitespace from output files.
+    [optional] Exclude from output files: lines that are empty or only contain whitespace.
     Default: Disabled.
 
 "--debug"
