@@ -55,6 +55,12 @@ options:
             (ex: '/out/values-es/strings.xml', '/out/values-zh-rTW/strings.xml')
     Default: Disabled.
 
+"-b" <substring-regex>
+"--blacklist" <substring-regex>
+    [optional] Do not translate substrings that match the regex pattern.
+    note: This flag can be repeated to blacklist multiple substring patterns.
+    Default: empty list.
+
 "-n"
 "--non-translatable"
     [optional] Include a verbatim copy of non-translatable strings in output files.

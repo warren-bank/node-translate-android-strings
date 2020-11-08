@@ -5,9 +5,11 @@
   <!ENTITY trip           "Voyage">
   <!ENTITY origin         "Origine">
   <!ENTITY destination    "Destination">
+  <!ENTITY copyright      "Adam Adamant">
 ]>
 <resources>
     <string name="app_name">Mock my GPS</string>
+    <string name="app_authors">Auteur: &copyright;\nCollaborateurs: Blankety Blank, Chucky Cheese</string>
     <string name="geo_intent_menu_title">Géo-Intention Pour:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>

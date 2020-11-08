@@ -5,6 +5,8 @@
   "Origine",
   "Destination",
   "Mock my GPS",
+  "Auteur:",
+  "Collaborateurs:",
   "Géo-Intention Pour:",
   "Nouveau signet",
   "Enregistrer un signet",

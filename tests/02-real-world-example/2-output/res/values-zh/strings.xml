@@ -6,10 +6,13 @@
   <!ENTITY trip           "旅行">
   <!ENTITY origin         "起源">
   <!ENTITY destination    "目的地">
+
+  <!ENTITY copyright      "Adam Adamant">
 ]>
 
 <resources>
     <string name="app_name">模拟我的 GPS</string>
+    <string name="app_authors">作者 : &copyright;\n贡献者 : Blankety Blank, Chucky Cheese</string>
 
     <!-- GeoIntentActivity ================================================= -->
 

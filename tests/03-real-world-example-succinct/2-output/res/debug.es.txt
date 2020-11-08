@@ -5,6 +5,8 @@
   "Origen",
   "Destino",
   "Mock mi GPS",
+  "Autor:",
+  "Colaboradores:",
   "Utilice Geo-Intent Para:",
   "Nuevo marcador",
   "Guardar marcador",

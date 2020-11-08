@@ -5,6 +5,8 @@
   "Origin",
   "Destination",
   "Mock my GPS",
+  "Author:",
+  "Contributors:",
   "Use Geo-Intent For:",
   "New Bookmark",
   "Save Bookmark",

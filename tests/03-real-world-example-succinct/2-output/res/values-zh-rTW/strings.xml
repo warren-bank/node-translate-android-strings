@@ -5,9 +5,11 @@
   <!ENTITY trip           "特里普">
   <!ENTITY origin         "起源">
   <!ENTITY destination    "目的地">
+  <!ENTITY copyright      "Adam Adamant">
 ]>
 <resources>
     <string name="app_name">模擬我的 GPS</string>
+    <string name="app_authors">作者： &copyright;\n投稿者： Blankety Blank, Chucky Cheese</string>
     <string name="geo_intent_menu_title">Use Geo-Intent For：</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>

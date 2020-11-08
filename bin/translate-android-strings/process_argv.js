@@ -13,6 +13,7 @@ const argv_flags = {
   "--input-file":         {file: "path-exists"},
   "--output-directory":   {file: "path-dirname-exists"},
   "--make-resource-dirs": {bool: true},
+  "--blacklist":          {many: true},
   "--non-translatable":   {bool: true},
   "--no-comments":        {bool: true},
   "--no-whitespace":      {bool: true},
@@ -29,6 +30,7 @@ const argv_flag_aliases = {
   "--input-file":         ["-f"],
   "--output-directory":   ["-d"],
   "--make-resource-dirs": ["-m"],
+  "--blacklist":          ["-b"],
   "--non-translatable":   ["-n"],
   "--no-comments":        ["--nc"],
   "--no-whitespace":      ["--nw"]
