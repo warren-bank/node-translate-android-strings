@@ -10,7 +10,7 @@
 <resources>
     <string name="app_name">Mock my GPS</string>
     <string name="app_authors">Auteur: &copyright;\nCollaborateurs: Blankety Blank, Chucky Cheese</string>
-    <string name="geo_intent_menu_title">Géo-Intention Pour:</string>
+    <string name="geo_intent_menu_title">Utiliser géo-Intention pour:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
@@ -21,5 +21,5 @@
     <string name="FixedPositionActivity_field_1">Emplacement:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">Durée:\n<small>(secondes)</small></string>
+    <string name="TripSimulationActivity_field_3">Durée:\n<small>(Secondes)</small></string>
 </resources>

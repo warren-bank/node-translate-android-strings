@@ -12,11 +12,11 @@
 
 <resources>
     <string name="app_name">模拟我的 GPS</string>
-    <string name="app_authors">作者 : &copyright;\n贡献者 : Blankety Blank, Chucky Cheese</string>
+    <string name="app_authors">作者: &copyright;\n贡献者: Blankety Blank, Chucky Cheese</string>
 
     <!-- GeoIntentActivity ================================================= -->
 
-    <string name="geo_intent_menu_title">使用地理位置 :</string>
+    <string name="geo_intent_menu_title">使用地理位置 - 意向:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
@@ -34,12 +34,12 @@
 
     <!-- tab_1: FixedPositionActivity ====================================== -->
 
-    <string name="FixedPositionActivity_field_1">位置 :\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">地点:\n<small>(&lat_lon;)</small></string>
 
     <!-- tab_2: TripSimulationActivity ===================================== -->
 
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">持续时间 :\n<small>( 秒)</small></string>
+    <string name="TripSimulationActivity_field_3">持续时间:\n<small>(秒)</small></string>
 
 </resources>

@@ -5,14 +5,14 @@
   "Origine",
   "Destination",
   "Mock my GPS",
-  "Auteur:",
-  "Collaborateurs:",
-  "Géo-Intention Pour:",
+  "Auteur",
+  "Collaborateurs",
+  "Utiliser géo-Intention pour",
   "Nouveau signet",
   "Enregistrer un signet",
   "Signets",
   "Préférences",
-  "Emplacement:",
-  "Durée:",
-  "(secondes)"
+  "Emplacement",
+  "Durée",
+  "Secondes"
 ]

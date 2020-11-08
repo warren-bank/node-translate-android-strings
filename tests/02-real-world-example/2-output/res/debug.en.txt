@@ -5,14 +5,14 @@
   "Origin",
   "Destination",
   "Mock my GPS",
-  "Author:",
-  "Contributors:",
-  "Use Geo-Intent For:",
+  "Author",
+  "Contributors",
+  "Use Geo-Intent For",
   "New Bookmark",
   "Save Bookmark",
   "Bookmarks",
   "Preferences",
-  "Location:",
-  "Duration:",
-  "(seconds)"
+  "Location",
+  "Duration",
+  "seconds"
 ]

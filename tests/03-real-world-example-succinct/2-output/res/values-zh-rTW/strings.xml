@@ -9,8 +9,8 @@
 ]>
 <resources>
     <string name="app_name">模擬我的 GPS</string>
-    <string name="app_authors">作者： &copyright;\n投稿者： Blankety Blank, Chucky Cheese</string>
-    <string name="geo_intent_menu_title">Use Geo-Intent For：</string>
+    <string name="app_authors">作者: &copyright;\n投稿者: Blankety Blank, Chucky Cheese</string>
+    <string name="geo_intent_menu_title">使用 Geo-Intent For:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
@@ -18,8 +18,8 @@
     <string name="MainActivity_actionbar_item_1">儲存書籤</string>
     <string name="MainActivity_actionbar_item_2">書籤</string>
     <string name="MainActivity_actionbar_item_3">Preferences</string>
-    <string name="FixedPositionActivity_field_1">地點：\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">地點:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">持續時間：\n<small>（秒）</small></string>
+    <string name="TripSimulationActivity_field_3">會期:\n<small>(秒)</small></string>
 </resources>

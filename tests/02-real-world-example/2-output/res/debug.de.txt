@@ -5,14 +5,14 @@
   "Ursprung",
   "Ziel",
   "Mock mein GPS",
-  "Autor:",
-  "Beitragszahler:",
-  "Verwenden Sie Geo-Intent für:",
+  "Autor",
+  "Beitragszahler",
+  "Verwenden Sie Geo-Intent für",
   "Neues Lesezeichen",
   "Lesezeichen speichern",
   "Lesezeichen",
   "Vorgaben",
-  "Position:",
-  "Dauer:",
-  "(Sekunden)"
+  "Position",
+  "Dauer",
+  "Sekunden"
 ]

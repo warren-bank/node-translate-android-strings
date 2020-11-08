@@ -5,14 +5,14 @@
   "Origen",
   "Destino",
   "Mock mi GPS",
-  "Autor:",
-  "Colaboradores:",
-  "Utilice Geo-Intent Para:",
+  "Autor",
+  "Colaboradores",
+  "Utilizar geo-Intent para",
   "Nuevo marcador",
   "Guardar marcador",
   "Marcadores",
   "Preferencias",
-  "Ubicación:",
-  "Duración:",
-  "(segundos)"
+  "Ubicación",
+  "Duración",
+  "segundos"
 ]

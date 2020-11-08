@@ -16,7 +16,7 @@
 
     <!-- GeoIntentActivity ================================================= -->
 
-    <string name="geo_intent_menu_title">Utilice Geo-Intent Para:</string>
+    <string name="geo_intent_menu_title">Utilizar geo-Intent para:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>

@@ -18,4 +18,4 @@ set log_file=%output_dir%\test.log
 if exist "%output_dir%" rmdir /Q /S "%output_dir%"
 mkdir "%output_dir%"
 
-call :translate-android-strings -i "en" -o "de" -f "%input_file%" -d "%output_dir%" --debug >"%log_file%" 2>&1
+call :translate-android-strings -i "en" -o "fr" -f "%input_file%" -d "%output_dir%" -b "John" -b "Smith" -a -n --debug >"%log_file%" 2>&1
