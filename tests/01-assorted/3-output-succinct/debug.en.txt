@@ -6,5 +6,7 @@
   "whom I specifically like",
   "Today is",
   "You have",
-  "new messages"
+  "new messages",
+  "hello",
+  "world"
 ]

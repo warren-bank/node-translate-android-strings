@@ -11,4 +11,6 @@
     <string name="f">"' \" \@ \?"</string>
     <string name="g">&hello;, %1$s! Aujourd\'hui est %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d Nouveaux messages.</string>
     <string name="i">&fname; Smith</string>
+    <string name="hello">Bonjour</string>
+    <string name="world">Monde</string>
 </resources>

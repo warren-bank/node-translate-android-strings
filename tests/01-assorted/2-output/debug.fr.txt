@@ -7,5 +7,7 @@
   "Aujourd'hui est",
   "Vous avez",
   "Nouveaux messages",
-  "Infestée par une grappe d'humains"
+  "Infestée par une grappe d'humains",
+  "Bonjour",
+  "Monde"
 ]

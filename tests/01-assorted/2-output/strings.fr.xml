@@ -39,4 +39,9 @@
         <item>George Harrison</item>
         <item>Ringo Starr</item>
     </string-array>
+
+    <!-- name of string resource contains same text as the translatable value -->
+    <!--   assertion: XML attribute is not modified                           -->
+    <string name="hello">Bonjour</string>
+    <string name="world">Monde</string>
 </resources>

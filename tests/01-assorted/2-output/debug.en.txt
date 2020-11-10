@@ -7,5 +7,7 @@
   "Today is",
   "You have",
   "new messages",
-  "Infested by an Array of Humans"
+  "Infested by an Array of Humans",
+  "hello",
+  "world"
 ]

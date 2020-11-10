@@ -6,5 +6,7 @@
   "Que j'aime particulièrement",
   "Aujourd'hui est",
   "Vous avez",
-  "Nouveaux messages"
+  "Nouveaux messages",
+  "Bonjour",
+  "Monde"
 ]
