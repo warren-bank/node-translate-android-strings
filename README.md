@@ -26,6 +26,19 @@ Command-line utility to use the IBM Watson&trade; Language Translator service to
     ```xml
       <string name="styled_content">&foo; Bar:\n\t(<small>Baz</small>)</string>
     ```
+* supports single-line _and_ multi-line string __array__ resource declarations
+  - ex:
+    ```xml
+      <string-array name="multi_line_array">
+          <item>&foo;</item>
+          <item>Bar</item>
+      </string-array>
+
+      <string-array name="static_multi_line_array" translatable="false">
+          <item>@string/mixed_content</item>
+          <item>@string/styled_content</item>
+      </string-array>
+    ```
 
 #### Limitations:
 
@@ -124,6 +137,13 @@ options:
 "--non-translatable"
     [optional] Include in output files: a verbatim copy of non-translatable strings.
     example: <string name="Y" translatable="false">3.14159</string>
+    note: The "translatable" attribute on a string array applies to all items.
+    Default: Disabled.
+
+"--na"
+"--no-arrays"
+    [optional] Exclude from output files: string arrays.
+    example: <string-array name="Z"><item>Foo</item><item>Bar</item></string-array>
     Default: Disabled.
 
 "--nc"

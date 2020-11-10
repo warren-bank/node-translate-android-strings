@@ -16,6 +16,7 @@ const argv_flags = {
   "--blacklist":          {many: true},
   "--alias":              {bool: true},
   "--non-translatable":   {bool: true},
+  "--no-arrays":          {bool: true},
   "--no-comments":        {bool: true},
   "--no-whitespace":      {bool: true},
   "--debug":              {bool: true}
@@ -34,6 +35,7 @@ const argv_flag_aliases = {
   "--blacklist":          ["-b"],
   "--alias":              ["-a"],
   "--non-translatable":   ["-n"],
+  "--no-arrays":          ["--na"],
   "--no-comments":        ["--nc"],
   "--no-whitespace":      ["--nw"]
 }

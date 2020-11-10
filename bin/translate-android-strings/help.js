@@ -71,6 +71,13 @@ options:
 "--non-translatable"
     [optional] Include in output files: a verbatim copy of non-translatable strings.
     example: <string name="Y" translatable="false">3.14159</string>
+    note: The "translatable" attribute on a string array applies to all items.
+    Default: Disabled.
+
+"--na"
+"--no-arrays"
+    [optional] Exclude from output files: string arrays.
+    example: <string-array name="Z"><item>Foo</item><item>Bar</item></string-array>
     Default: Disabled.
 
 "--nc"

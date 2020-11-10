@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY hello "Bonjour">
+  <!ENTITY fname "John">
+]>
+<resources>
+    <string name="a">Monde</string>
+    <string name="b">&hello; Tout le monde</string>
+    <string name="c">&hello; Personnes:\n\t(<small>Que j\'aime particulièrement</small>)</string>
+    <string name="e">\' \" \@ \?</string>
+    <string name="f">"' \" \@ \?"</string>
+    <string name="g">&hello;, %1$s! Aujourd\'hui est %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d Nouveaux messages.</string>
+    <string name="i">&fname; Smith</string>
+</resources>

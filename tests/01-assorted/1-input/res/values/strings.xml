@@ -24,4 +24,19 @@
     <!-- non translatable (directly or indirectly) -->
     <string name="h" translatable="false">Bill Smith</string>
     <string name="i">&fname; Smith</string>
+
+    <!-- string array -->
+    <string-array name="j">
+        <item>&hello;</item>
+        <item>@string/a</item>
+        <item>Infested by an Array of Humans</item>
+    </string-array>
+
+    <!-- string array (non translatable) -->
+    <string-array name="k" translatable="false">
+        <item>John Lennon</item>
+        <item>Paul McCartney</item>
+        <item>George Harrison</item>
+        <item>Ringo Starr</item>
+    </string-array>
 </resources>
