@@ -10,7 +10,7 @@
 <resources>
     <string name="app_name">模拟我的 GPS</string>
     <string name="app_authors">作者: &copyright;\n贡献者: Blankety Blank, Chucky Cheese</string>
-    <string name="geo_intent_menu_title">使用地理位置 - 意向:</string>
+    <string name="geo_intent_menu_title">使用地理位置:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
