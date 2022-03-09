@@ -19,6 +19,7 @@ const argv_flags = {
   "--no-arrays":          {bool: true},
   "--no-comments":        {bool: true},
   "--no-whitespace":      {bool: true},
+  "--no-clobber":         {bool: true},
   "--debug":              {bool: true}
 }
 
@@ -37,7 +38,8 @@ const argv_flag_aliases = {
   "--non-translatable":   ["-n"],
   "--no-arrays":          ["--na"],
   "--no-comments":        ["--nc"],
-  "--no-whitespace":      ["--nw"]
+  "--no-whitespace":      ["--nw"],
+  "--no-clobber":         ["--nr", "--no-replace"]
 }
 
 let argv_vals = {}
