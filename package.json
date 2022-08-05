@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/translate-android-strings",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "main": "lib/process_cli.js",
   "description": "Command-line utility to use the IBM Watson Language Translator service to translate Android 'strings.xml'.",
   "license": "GPL-2.0",
