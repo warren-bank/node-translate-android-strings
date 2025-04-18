@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
   <!ENTITY copyright      "Adam Adamant">
-  <!ENTITY lat_lon        "纬度，经度">
+  <!ENTITY lat_lon        "纬度,经度">
   <!ENTITY fixed_position "固定位置">
   <!ENTITY trip           "旅行">
-  <!ENTITY origin         "起源">
-  <!ENTITY destination    "目的地">
+  <!ENTITY origin         "来源">
+  <!ENTITY destination    "目标">
 ]>
 <resources>
-    <string name="app_name">模拟我的 GPS</string>
+    <string name="app_name">锁定我的GPS</string>
     <string name="app_authors">作者: &copyright;\n贡献者: Blankety Blank, Chucky Cheese</string>
-    <string name="geo_intent_menu_title">使用地理位置:</string>
+    <string name="geo_intent_menu_title">使用 Geo 输入:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
@@ -21,5 +21,5 @@
     <string name="FixedPositionActivity_field_1">地点:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">持续时间:\n<small>(秒)</small></string>
+    <string name="TripSimulationActivity_field_3">会期:\n<small>(秒数)</small></string>
 </resources>

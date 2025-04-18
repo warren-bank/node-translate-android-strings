@@ -1,13 +1,13 @@
 [
   "Bonjour",
   "Monde",
-  "Tout le monde",
+  "Tous",
   "Personnes",
-  "Que j'aime particulièrement",
-  "Aujourd'hui est",
+  "que j'aime particulièrement",
+  "Aujourd'hui",
   "Vous avez",
-  "Nouveaux messages",
-  "Infestée par une grappe d'humains",
-  "Bonjour",
-  "Monde"
+  "nouveaux messages",
+  "Infesté par un tableau des humains",
+  "bonjour",
+  "mondial"
 ]

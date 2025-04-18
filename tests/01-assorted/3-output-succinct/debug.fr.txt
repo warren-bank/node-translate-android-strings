@@ -1,12 +1,12 @@
 [
   "Bonjour",
   "Monde",
-  "Tout le monde",
+  "Tous",
   "Personnes",
-  "Que j'aime particulièrement",
-  "Aujourd'hui est",
+  "que j'aime particulièrement",
+  "Aujourd'hui",
   "Vous avez",
-  "Nouveaux messages",
-  "Bonjour",
-  "Monde"
+  "nouveaux messages",
+  "bonjour",
+  "mondial"
 ]

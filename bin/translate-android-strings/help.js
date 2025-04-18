@@ -13,13 +13,14 @@ options:
 
 "-k" <key>
 "--api-key" <key>
-    [optional] IBM Cloud account API key.
-    Default: Value is read from "IBM_TRANSLATOR_API_KEY" environment variable.
+    [optional] LibreTranslate server API key.
+    Fallback: Value of the "LIBRE_TRANSLATE_API_KEY" environment variable, if one exists.
 
 "-u" <url>
 "--api-url" <url>
-    [optional] IBM Cloud account API URL.
-    Default: Value is read from "IBM_TRANSLATOR_API_URL" environment variable.
+    [optional] LibreTranslate server API URL.
+    Fallback: Value of the "LIBRE_TRANSLATE_API_URL" environment variable, if one exists.
+    Default: "https://libretranslate.com"
 
 "-i" <language>
 "--input-language" <language>
@@ -97,6 +98,13 @@ options:
     [optional] Skip output languages for which the output file already exists.
     Default: Disabled. Overwrite if exists.
 
+"--nb"
+"--no-break"
+"--no-break-on-error"
+    [optional] When translating multiple output languages and one encounters an error,
+               print a log statement and continue processing the remaining output languages.
+    Default: Disabled. The library throws an error, and the command-line utility exits with code.
+
 "--debug"
     [optional] Writes raw data files to output directory.
     note: If enabled, then for each language:
@@ -106,65 +114,6 @@ options:
           - file with the input language code contains the list of parsed strings
           - file with an output language code contains the list of translated strings
     Default: Disabled.
-
-language codes:
-===============
-  "ar"    Arabic
-  "eu"    Basque [1]
-  "bn"    Bengali
-  "bs"    Bosnian
-  "bg"    Bulgarian
-  "ca"    Catalan [1]
-  "zh"    Chinese (Simplified)
-  "zh-TW" Chinese (Traditional)
-  "hr"    Croatian
-  "cs"    Czech
-  "da"    Danish
-  "nl"    Dutch
-  "en"    English
-  "et"    Estonian
-  "fi"    Finnish
-  "fr"    French
-  "fr-CA" French (Canadian)
-  "de"    German
-  "el"    Greek
-  "gu"    Gujarati
-  "he"    Hebrew
-  "hi"    Hindi
-  "hu"    Hungarian
-  "ga"    Irish
-  "id"    Indonesian
-  "it"    Italian
-  "ja"    Japanese
-  "ko"    Korean
-  "lv"    Latvian
-  "lt"    Lithuanian
-  "ms"    Malay
-  "ml"    Malayalam
-  "mt"    Maltese
-  "cnr"   Montenegrin
-  "ne"    Nepali
-  "nb"    Norwegian Bokmål
-  "pl"    Polish
-  "pt"    Portuguese
-  "ro"    Romanian
-  "ru"    Russian
-  "sr"    Serbian
-  "si"    Sinhala
-  "sk"    Slovak
-  "sl"    Slovenian
-  "es"    Spanish
-  "sv"    Swedish
-  "ta"    Tamil
-  "te"    Telugu
-  "th"    Thai
-  "tr"    Turkish
-  "uk"    Ukrainian
-  "ur"    Urdu
-  "vi"    Vietnamese
-  "cy"    Welsh
-
-[1] Basque and Catalan are supported only for translation to and from Spanish.
 `
 
 module.exports = help

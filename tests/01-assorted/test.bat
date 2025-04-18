@@ -1,9 +1,10 @@
 @echo off
 
-rem :: declare variables "IBM_TRANSLATOR_API_KEY" and "IBM_TRANSLATOR_API_URL"
-call "%USERPROFILE%\IBM_TRANSLATOR_API_CREDENTIALS.bat"
-
 set DIR=%~dp0.
+
+rem :: declare variables "LIBRE_TRANSLATE_API_KEY" and "LIBRE_TRANSLATE_API_URL"
+call "%DIR%\..\LIBRE_TRANSLATE_API_CREDENTIALS.bat"
+
 goto :start
 
 :translate-android-strings

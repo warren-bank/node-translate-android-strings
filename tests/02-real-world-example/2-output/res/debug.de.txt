@@ -1,18 +1,18 @@
 [
-  "Breitengrad, Längengrad",
+  "Breite, Länge",
   "Feste Position",
-  "Reise",
+  "Urlaub",
   "Ursprung",
-  "Ziel",
-  "Mock mein GPS",
+  "Bestimmung",
+  "Mock my GPS",
   "Autor",
-  "Beitragszahler",
-  "Verwenden Sie Geo-Intent für",
+  "Beiträge",
+  "Geo-Intent für",
   "Neues Lesezeichen",
   "Lesezeichen speichern",
   "Lesezeichen",
-  "Vorgaben",
-  "Position",
+  "Präferenzen",
+  "Standort",
   "Dauer",
-  "Sekunden"
+  "sekunden"
 ]

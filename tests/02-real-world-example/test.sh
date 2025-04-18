@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# declare variables "IBM_TRANSLATOR_API_KEY" and "IBM_TRANSLATOR_API_URL"
-source "${HOME}/IBM_TRANSLATOR_API_CREDENTIALS.sh"
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# declare variables "LIBRE_TRANSLATE_API_KEY" and "LIBRE_TRANSLATE_API_URL"
+source "${DIR}/../LIBRE_TRANSLATE_API_CREDENTIALS.sh"
 
 function translate-android-strings {
   node "${DIR}/../../bin/translate-android-strings.js" "$@"
@@ -16,4 +16,4 @@ log_file="${output_dir}/test.log"
 [ -d "$output_dir" ] && rm -rf "$output_dir"
 mkdir -p "$output_dir"
 
-translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -o 'zh' -o 'zh-TW' -f "$input_file" -d "$output_dir" -m -b 'Adam Adamant' -b 'Blankety Blank' -b 'Chucky Cheese' -a --debug >"$log_file" 2>&1
+translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -o 'zh' -o 'zh-TW' -o 'zh-Hans' -o 'zh-Hant' -f "$input_file" -d "$output_dir" --nb -m -b 'Adam Adamant' -b 'Blankety Blank' -b 'Chucky Cheese' -a --debug >"$log_file" 2>&1

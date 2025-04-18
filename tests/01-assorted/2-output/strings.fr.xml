@@ -8,8 +8,8 @@
 <resources>
     <!-- "features" listed in the README -->
     <string name="a">Monde</string>
-    <string name="b">&hello; Tout le monde</string>
-    <string name="c">&hello; Personnes:\n\t(<small>Que j\'aime particulièrement</small>)</string>
+    <string name="b">&hello; Tous</string>
+    <string name="c">&hello; Personnes:\n\t(<small>que j\'aime particulièrement</small>)</string>
 
     <!-- "alias" -->
     <string name="d">@string/d</string>
@@ -19,7 +19,7 @@
     <string name="f">"' \" \@ \?"</string>
 
     <!-- contains formatting strings -->
-    <string name="g">&hello;, %1$s! Aujourd\'hui est %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d Nouveaux messages.</string>
+    <string name="g">&hello;, %1$s! Aujourd\'hui %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d nouveaux messages.</string>
 
     <!-- non translatable (directly or indirectly) -->
     <string name="h" translatable="false">Bill Smith</string>
@@ -29,7 +29,7 @@
     <string-array name="j">
         <item>&hello;</item>
         <item>@string/a</item>
-        <item>Infestée par une grappe d\'humains</item>
+        <item>Infesté par un tableau des humains</item>
     </string-array>
 
     <!-- string array (non translatable) -->
@@ -42,6 +42,6 @@
 
     <!-- name of string resource contains same text as the translatable value -->
     <!--   assertion: XML attribute is not modified                           -->
-    <string name="hello">Bonjour</string>
-    <string name="world">Monde</string>
+    <string name="hello">bonjour</string>
+    <string name="world">mondial</string>
 </resources>

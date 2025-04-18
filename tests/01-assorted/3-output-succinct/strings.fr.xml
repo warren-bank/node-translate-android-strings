@@ -5,12 +5,12 @@
 ]>
 <resources>
     <string name="a">Monde</string>
-    <string name="b">&hello; Tout le monde</string>
-    <string name="c">&hello; Personnes:\n\t(<small>Que j\'aime particulièrement</small>)</string>
+    <string name="b">&hello; Tous</string>
+    <string name="c">&hello; Personnes:\n\t(<small>que j\'aime particulièrement</small>)</string>
     <string name="e">\' \" \@ \?</string>
     <string name="f">"' \" \@ \?"</string>
-    <string name="g">&hello;, %1$s! Aujourd\'hui est %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d Nouveaux messages.</string>
+    <string name="g">&hello;, %1$s! Aujourd\'hui %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d nouveaux messages.</string>
     <string name="i">&fname; Smith</string>
-    <string name="hello">Bonjour</string>
-    <string name="world">Monde</string>
+    <string name="hello">bonjour</string>
+    <string name="world">mondial</string>
 </resources>

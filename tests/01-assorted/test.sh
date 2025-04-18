@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# declare variables "IBM_TRANSLATOR_API_KEY" and "IBM_TRANSLATOR_API_URL"
-source "${HOME}/IBM_TRANSLATOR_API_CREDENTIALS.sh"
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# declare variables "LIBRE_TRANSLATE_API_KEY" and "LIBRE_TRANSLATE_API_URL"
+source "${DIR}/../LIBRE_TRANSLATE_API_CREDENTIALS.sh"
 
 function translate-android-strings {
   node "${DIR}/../../bin/translate-android-strings.js" "$@"

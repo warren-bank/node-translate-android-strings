@@ -4,15 +4,15 @@
   "Voyage",
   "Origine",
   "Destination",
-  "Mock my GPS",
+  "Frappe mon GPS",
   "Auteur",
-  "Collaborateurs",
-  "Utiliser géo-Intention pour",
+  "Contributions",
+  "Utiliser Geo-Intent pour",
   "Nouveau signet",
-  "Enregistrer un signet",
+  "Enregistrer le signet",
   "Signets",
   "Préférences",
-  "Emplacement",
+  "Lieu",
   "Durée",
-  "Secondes"
+  "secondes"
 ]
