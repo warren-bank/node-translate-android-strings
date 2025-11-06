@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+  <!ENTITY hello "Hello">
+  <!ENTITY fname "John">
+]>
+
+<resources>
+    <!-- "features" listed in the README -->
+    <string name="a">World</string>
+    <string name="b">&hello; Everyone</string>
+    <string name="c">&hello; People:\n\t(<small>whom I specifically like</small>)</string>
+
+    <!-- "alias" -->
+    <string name="d">@string/d</string>
+
+    <!-- contains characters that need to be escaped in XML -->
+    <string name="e">\' \" \@ \?</string>
+    <string name="f">"' \" \@ \?"</string>
+
+    <!-- contains formatting strings -->
+    <string name="g">&hello;, %1$s! Today is %2$ta %2$tb %2$td %2$tY. You have %3$3d new messages.</string>
+
+    <!-- non translatable (directly or indirectly) -->
+    <string name="h" translatable="false">Bill Smith</string>
+    <string name="i">&fname; Smith</string>
+
+    <!-- string array -->
+    <string-array name="j">
+        <item>&hello;</item>
+        <item>@string/a</item>
+        <item>Infested by an Array of Humans</item>
+    </string-array>
+
+    <!-- string array (non translatable) -->
+    <string-array name="k" translatable="false">
+        <item>John Lennon</item>
+        <item>Paul McCartney</item>
+        <item>George Harrison</item>
+        <item>Ringo Starr</item>
+    </string-array>
+
+    <!-- name of string resource contains same text as the translatable value -->
+    <!--   assertion: XML attribute is not modified                           -->
+    <string name="hello">hello</string>
+    <string name="world">world</string>
+</resources>

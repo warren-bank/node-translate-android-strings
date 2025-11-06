@@ -4,6 +4,7 @@ const path         = require('path')
 const argv_flags = {
   "--help":               {bool: true},
   "--version":            {bool: true},
+  "--api-service":        {enum: ["libre", "deepl"]},
   "--api-key":            {},
   "--api-url":            {},
   "--input-language":     {},
@@ -25,6 +26,7 @@ const argv_flags = {
 const argv_flag_aliases = {
   "--help":               ["-h"],
   "--version":            ["-v"],
+  "--api-service":        ["-s"],
   "--api-key":            ["-k"],
   "--api-url":            ["-u"],
   "--input-language":     ["-i"],
@@ -64,15 +66,33 @@ if (argv_vals["--version"]) {
   process.exit(0)
 }
 
-argv_vals["--api-key"] = argv_vals["--api-key"] || process.env["LIBRE_TRANSLATE_API_KEY"]
-argv_vals["--api-url"] = argv_vals["--api-url"] || process.env["LIBRE_TRANSLATE_API_URL"]
-
-if (!argv_vals["--api-key"]) {
-  argv_vals["--api-key"] = null
+if (!argv_vals["--api-service"]) {
+  console.log('ERROR: Name of language translation service API is required')
+  process.exit(1)
 }
 
-if (!argv_vals["--api-url"]) {
-  argv_vals["--api-url"] = 'https://libretranslate.com'
+switch(argv_vals["--api-service"]) {
+  case "libre":
+    argv_vals["--api-key"] = argv_vals["--api-key"] || process.env["LIBRE_TRANSLATE_API_KEY"]
+    argv_vals["--api-url"] = argv_vals["--api-url"] || process.env["LIBRE_TRANSLATE_API_URL"]
+
+    if (!argv_vals["--api-key"]) {
+      argv_vals["--api-key"] = null
+    }
+
+    if (!argv_vals["--api-url"]) {
+      argv_vals["--api-url"] = 'https://libretranslate.com'
+    }
+    break
+  case "deepl":
+    argv_vals["--api-key"] = argv_vals["--api-key"] || process.env["DEEPL_TRANSLATE_API_KEY"]
+    argv_vals["--api-url"] = argv_vals["--api-url"] || process.env["DEEPL_TRANSLATE_API_URL"]
+
+    if (!argv_vals["--api-key"]) {
+      console.log('ERROR: DeepL account API key is required')
+      process.exit(1)
+    }
+    break
 }
 
 if (!argv_vals["--input-language"]) {

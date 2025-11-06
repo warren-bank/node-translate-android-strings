@@ -1,0 +1,18 @@
+[
+  "Latitude, Longitude",
+  "Position fixe",
+  "Voyage",
+  "Origine",
+  "Destination",
+  "Mock mon GPS",
+  "Auteur",
+  "Contributeurs",
+  "Utiliser Geo-Intent pour",
+  "Nouveau signet",
+  "Enregistrer le signet",
+  "Signets",
+  "Préférences",
+  "Lieu",
+  "Durée",
+  "secondes"
+]

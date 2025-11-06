@@ -11,16 +11,25 @@ options:
 "--version"
     Display the version.
 
+"-s" <service>
+"--api-service" <service>
+    [required] Name of language translation service API.
+    enum: "libre", "deepl"
+
 "-k" <key>
 "--api-key" <key>
-    [optional] LibreTranslate server API key.
-    Fallback: Value of the "LIBRE_TRANSLATE_API_KEY" environment variable, if one exists.
+    [optional] API key.
+    Fallback for "libre" service: Value of the "LIBRE_TRANSLATE_API_KEY" environment variable, if one exists.
+    Fallback for "deepl" service: Value of the "DEEPL_TRANSLATE_API_KEY" environment variable, if one exists.
 
 "-u" <url>
 "--api-url" <url>
-    [optional] LibreTranslate server API URL.
-    Fallback: Value of the "LIBRE_TRANSLATE_API_URL" environment variable, if one exists.
-    Default: "https://libretranslate.com"
+    [optional] API URL.
+    Fallback for "libre" service: Value of the "LIBRE_TRANSLATE_API_URL" environment variable, if one exists.
+    Fallback for "deepl" service: Value of the "DEEPL_TRANSLATE_API_URL" environment variable, if one exists.
+    Default for "libre" service: "https://libretranslate.com"
+    Default for "deepl" service for free accounts: "https://api-free.deepl.com/v2"
+    Default for "deepl" service for paid accounts: "https://api.deepl.com/v2"
 
 "-i" <language>
 "--input-language" <language>
@@ -35,7 +44,7 @@ options:
 
 "-f" <filepath>
 "--input-file" <filepath>
-    [required] File path to input 'strings.xml' file.
+    [required] File path to input string resource XML file.
 
 "-d" <dirpath>
 "--output-directory" <dirpath>

@@ -1,6 +1,6 @@
 ### [translate-android-strings](https://github.com/warren-bank/node-translate-android-strings)
 
-Command-line utility to use the [LibreTranslate&trade;](https://github.com/LibreTranslate/LibreTranslate) service to translate Android `strings.xml`.
+Command-line utility to use an online language translation service to automate the localization of Android _string_ resources.
 
 #### Features:
 
@@ -52,19 +52,20 @@ Command-line utility to use the [LibreTranslate&trade;](https://github.com/Libre
 
 #### Requirements:
 
-* access to a server hosting the [LibreTranslate server API](https://github.com/LibreTranslate/LibreTranslate#mirrors)
-  - API key
-  - API URL
+* access to a server hosting one of the supported language translation service APIs
+  - [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate#mirrors)
+    * API key
+    * API URL
+  - [DeepL](https://www.deepl.com/en/pro-api)
+    * API key
 
 #### Supported Languages
 
-* a real-time JSON array of supported language objects is returned from the [API](https://libretranslate.com/docs) endpoint: [`/languages`](https://libretranslate.com/languages)
-* [this table](https://github.com/warren-bank/node-libre-language-translator#supported-languages) summarizes its response
-  - results may vary:
-    * over time
-    * per server
-  - when the `--output-language` option is not specified:
-    * a real-time list is obtained of all supported output languages for the specified input language at the specified [LibreTranslate server API](https://github.com/LibreTranslate/LibreTranslate#mirrors)
+* the list of supported input and output languages depends upon the chosen API
+  - [LibreTranslate](https://github.com/warren-bank/node-libre-language-translator#supported-languages)
+    * there is no guarantee for consistency, either between server instances or over time
+    * to obtain a real-time list of supported languages from a specific server instance, directly query its `<API URL>/languages` [API](https://libretranslate.com/docs) endpoint
+  - [DeepL](https://github.com/warren-bank/node-deepl-language-translator#supported-input-languages)
 
 #### Installation:
 
@@ -87,16 +88,25 @@ options:
 "--version"
     Display the version.
 
+"-s" <service>
+"--api-service" <service>
+    [required] Name of language translation service API.
+    enum: "libre", "deepl"
+
 "-k" <key>
 "--api-key" <key>
-    [optional] LibreTranslate server API key.
-    Fallback: Value of the "LIBRE_TRANSLATE_API_KEY" environment variable, if one exists.
+    [optional] API key.
+    Fallback for "libre" service: Value of the "LIBRE_TRANSLATE_API_KEY" environment variable, if one exists.
+    Fallback for "deepl" service: Value of the "DEEPL_TRANSLATE_API_KEY" environment variable, if one exists.
 
 "-u" <url>
 "--api-url" <url>
-    [optional] LibreTranslate server API URL.
-    Fallback: Value of the "LIBRE_TRANSLATE_API_URL" environment variable, if one exists.
-    Default: "https://libretranslate.com"
+    [optional] API URL.
+    Fallback for "libre" service: Value of the "LIBRE_TRANSLATE_API_URL" environment variable, if one exists.
+    Fallback for "deepl" service: Value of the "DEEPL_TRANSLATE_API_URL" environment variable, if one exists.
+    Default for "libre" service: "https://libretranslate.com"
+    Default for "deepl" service for free accounts: "https://api-free.deepl.com/v2"
+    Default for "deepl" service for paid accounts: "https://api.deepl.com/v2"
 
 "-i" <language>
 "--input-language" <language>
@@ -111,7 +121,7 @@ options:
 
 "-f" <filepath>
 "--input-file" <filepath>
-    [required] File path to input 'strings.xml' file.
+    [required] File path to input string resource XML file.
 
 "-d" <dirpath>
 "--output-directory" <dirpath>
@@ -199,7 +209,7 @@ options:
     ```bash
       source ~/LIBRE_TRANSLATE_API_CREDENTIALS.sh
 
-      translate-android-strings -i 'en' -f '/path/to/res/values/strings.xml' -d '/path/to/res' -m
+      translate-android-strings -s 'libre' -i 'en' -f '/path/to/res/values/strings.xml' -d '/path/to/res' -m
     ```
   - produces output files:
     ```text
@@ -215,7 +225,7 @@ options:
     ```bash
       source ~/LIBRE_TRANSLATE_API_CREDENTIALS.sh
 
-      translate-android-strings -i 'en' -o 'de' -o 'es' -o 'fr' -f '/path/to/input/file.xml' -d '/path/to/output'
+      translate-android-strings -s 'libre' -i 'en' -o 'de' -o 'es' -o 'fr' -f '/path/to/input/file.xml' -d '/path/to/output'
     ```
   - produces output files:
     ```text

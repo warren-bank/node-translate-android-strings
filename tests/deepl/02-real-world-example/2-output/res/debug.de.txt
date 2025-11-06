@@ -1,0 +1,18 @@
+[
+  "Breitengrad, Längengrad",
+  "Feste Position",
+  "Reise",
+  "Herkunft",
+  "Reiseziel",
+  "Verspotte mein GPS",
+  "Autor",
+  "Mitwirkende",
+  "Verwenden Sie Geo-Intent für",
+  "Neues Lesezeichen",
+  "Lesezeichen speichern",
+  "Lesezeichen",
+  "Einstellungen",
+  "Standort",
+  "Dauer",
+  "Sekunden"
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+  <!ENTITY hello "Bonjour">
+  <!ENTITY fname "John">
+]>
+
+<resources>
+    <!-- "features" listed in the README -->
+    <string name="a">Monde</string>
+    <string name="b">&hello; Tout le monde</string>
+    <string name="c">&hello; Personnes:\n\t(<small>que j\'aime spécifiquement</small>)</string>
+
+    <!-- "alias" -->
+    <string name="d">@string/d</string>
+
+    <!-- contains characters that need to be escaped in XML -->
+    <string name="e">\' \" \@ \?</string>
+    <string name="f">"' \" \@ \?"</string>
+
+    <!-- contains formatting strings -->
+    <string name="g">&hello;, %1$s! Aujourd\'hui %2$ta %2$tb %2$td %2$tY. Vous avez %3$3d nouveaux messages.</string>
+
+    <!-- non translatable (directly or indirectly) -->
+    <string name="h" translatable="false">Bill Smith</string>
+    <string name="i">&fname; Smith</string>
+
+    <!-- string array -->
+    <string-array name="j">
+        <item>&hello;</item>
+        <item>@string/a</item>
+        <item>Infesté par un tableau des humains</item>
+    </string-array>
+
+    <!-- string array (non translatable) -->
+    <string-array name="k" translatable="false">
+        <item>John Lennon</item>
+        <item>Paul McCartney</item>
+        <item>George Harrison</item>
+        <item>Ringo Starr</item>
+    </string-array>
+
+    <!-- name of string resource contains same text as the translatable value -->
+    <!--   assertion: XML attribute is not modified                           -->
+    <string name="hello">bonjour</string>
+    <string name="world">mondial</string>
+</resources>

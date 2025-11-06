@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY copyright      "Adam Adamant">
+  <!ENTITY lat_lon        "經度相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相接相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相">
+  <!ENTITY fixed_position "固定位置">
+  <!ENTITY trip           "出行">
+  <!ENTITY origin         "出自:">
+  <!ENTITY destination    "目的地">
+]>
+<resources>
+    <string name="app_name">嘲笑我的GPS</string>
+    <string name="app_authors">作者: &copyright;\n二. 捐款人: Blankety Blank, Chucky Cheese</string>
+    <string name="geo_intent_menu_title">有地圖用法:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">新書签</string>
+    <string name="MainActivity_actionbar_item_1">儲存書签</string>
+    <string name="MainActivity_actionbar_item_2">書签</string>
+    <string name="MainActivity_actionbar_item_3">首选项</string>
+    <string name="FixedPositionActivity_field_1">位置:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">期限:\n<small>(秒)</small></string>
+</resources>

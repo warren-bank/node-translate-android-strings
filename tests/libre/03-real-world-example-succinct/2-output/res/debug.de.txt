@@ -1,0 +1,18 @@
+[
+  "Länge, Länge",
+  "Feste Position",
+  "Urlaub",
+  "Ursprung",
+  "Bestimmung",
+  "Mock my GPS",
+  "Autor",
+  "Beiträge",
+  "Geo-Intent für",
+  "Neues Lesezeichen",
+  "Lesezeichen speichern",
+  "Lesezeichen",
+  "Vorlieben",
+  "Standort",
+  "Dauer",
+  "sekunden"
+]

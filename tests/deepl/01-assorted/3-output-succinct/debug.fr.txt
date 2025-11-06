@@ -1,0 +1,12 @@
+[
+  "Bonjour",
+  "Monde",
+  "Tout le monde",
+  "Personnes",
+  "que j'apprécie particulièrement",
+  "Aujourd'hui, c'est",
+  "Vous avez",
+  "nouveaux messages",
+  "bonjour",
+  "monde"
+]
