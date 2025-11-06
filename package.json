@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/translate-android-strings",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "lib/process_cli.js",
   "description": "Command-line utility to use an online language translation service to automate the localization of Android string resources.",
   "license": "GPL-2.0",
